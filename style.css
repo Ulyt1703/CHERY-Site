@@ -9,11 +9,9 @@
     font-family: 'Mulish';
 }
 body{
-    width: 1510px;
-    height: 798.6px;
-    gap: 0px;
-    opacity: 0px;
-    background: linear-gradient(180deg, #ca0000e2 0%, #ca0000d9 50%, #ca0000d9 100%);
+    background: url(./img/bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .bg-img{
     opacity: 80%;
@@ -28,7 +26,9 @@ body{
     align-items: center;
     width: 1440px;
     height: 196.24px;
-    padding: 60px 600px 80px 424px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 60px 600px 80px 402px;
     gap: 0px;
 }
 .logo{
@@ -57,7 +57,7 @@ body{
     height: 50px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50px;
-    transform: translate(190px, 2.5px);
+    transform: translate(172.5px, 2.5px);
     z-index: 2;
     opacity: 1;
     user-select: none;
@@ -70,13 +70,13 @@ body{
     color: rgba(255, 255, 255, 1);
     position: absolute;
     font-size: 14px;
-    transform: translate(225%, 50px);
+    transform: translate(216.5%, 50px);
     opacity: 50%;
     z-index: 2;
 }
 .block-img{
     position: absolute;
-    top: 61.5%;
+    top: 53.5%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 640px;
@@ -88,6 +88,7 @@ body{
     width: 608px;
     height: 460px;
     border-radius: 20px 20px 0 0;
+    border: 1px solid #000;
 }
 .info__block-img{
     display: flex;
