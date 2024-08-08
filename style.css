@@ -13,12 +13,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.bg-img{
-    opacity: 80%;
-    width: 1510px;
-    height: 800px;
-    z-index: -1;
-}
 .header{
     position: absolute;
     display: flex;
@@ -28,7 +22,7 @@ body{
     height: 196.24px;
     left: 50%;
     transform: translateX(-50%);
-    padding: 60px 600px 80px 402px;
+    padding: 60px 600px 80px 424px;
     gap: 0px;
 }
 .logo{
@@ -57,7 +51,7 @@ body{
     height: 50px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50px;
-    transform: translate(172.5px, 2.5px);
+    transform: translate(175px, 2.5px);
     z-index: 2;
     opacity: 1;
     user-select: none;
@@ -70,25 +64,24 @@ body{
     color: rgba(255, 255, 255, 1);
     position: absolute;
     font-size: 14px;
-    transform: translate(216.5%, 50px);
+    transform: translate(212%, 50px);
     opacity: 50%;
     z-index: 2;
 }
 .block-img{
     position: absolute;
-    top: 53.5%;
+    top: 41%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 640px;
+    width: 589px;
     height: 564px;
     z-index: 2;
     opacity: 1;
 }
 .bg__main-img{
-    width: 608px;
+    width: 589px;
     height: 460px;
     border-radius: 20px 20px 0 0;
-    border: 1px solid #000;
 }
 .info__block-img{
     display: flex;
@@ -97,7 +90,7 @@ body{
     height: 69px;
     position: absolute;
     top: 65%;
-    left: 50%;
+    left: 53.5%;
     transform: translate(-54.5%, -50%);
     padding: 20px, 20px, 10px, 0px;
     border-top: 1px rgba(255, 255, 255, 0.2) solid;
@@ -107,11 +100,18 @@ body{
     display: flex;
     padding: 40px;
     position: absolute;
+    color: rgba(141, 143, 147, 1);
     transform: translateY(-15%);
-    color: #ffffff31;
+}
+.title-date{
+    padding: 9px 0 0 0;
+    font-size: 13px;
+    font-weight: 400;
 }
 .title-time{
-    padding: 0 0 0 70px;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 9px 0 0 70px;
 }
 .shapes-info{
     display: flex;
@@ -124,10 +124,12 @@ body{
     color: rgba(255, 255, 255, 1);
     font-weight: 700px;
     user-select: text;
+    font-size: 15px;
 }
 .descr-time{
     padding: 0 0 0 25px;
     color: rgba(255, 255, 255, 1);
     font-weight: 700px;
     user-select: text;
+    font-size: 15px;
 }
