@@ -79,6 +79,7 @@ body{
     opacity: 1;
 }
 .bg__main-img{
+    position: relative;
     width: 589px;
     height: 460px;
     border-radius: 20px 20px 0 0;
